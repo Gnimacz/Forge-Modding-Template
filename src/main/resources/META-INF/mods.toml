@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="${loader_version}"
+license="${mod_license}"
+
+#issueTrackerURL="${issue_tracker}" #optional
+
+[[mods]]
+    modId="${mod_id}"
+    version="${version}"
+    displayName="${mod_name}"
+    #updateJSONURL="${mod_update_json}" #optional
+    #displayURL="${mod_display_url}" #optional
+    #logoFile="${mod_log_file}" #optional
+    #credits="${mod_credits}" #optional
+    #authors="Love, Cheese and small house plants" #optional
+    description = '''
+'''
