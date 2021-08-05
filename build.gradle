@@ -10,7 +10,7 @@ def applyRemote(String url){
     mkdir("./gradle/remote_script_cache/")
     def remoteFile = new File('./gradle/remote_script_cache/' + url.md5())
 
-    def shouldDownload = true || !remoteFile.exists() || remoteFile.lastModified() < (System.currentTimeMillis() - 3.6e+9)
+    def shouldDownload = !remoteFile.exists() || remoteFile.lastModified() < (System.currentTimeMillis() - 3.6e+9)
     if(shouldDownload)
         try(def out = new BufferedOutputStream(new FileOutputStream(remoteFile, false))){
             out << new URL(url).openStream();
