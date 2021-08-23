@@ -1,1 +1,0 @@
-Dark Roleplay Modding Template

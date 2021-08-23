@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": [
+            { "model": "gtestmod:block/water_tank" }
+        ]
+    }
+}
